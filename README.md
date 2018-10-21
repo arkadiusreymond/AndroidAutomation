@@ -157,7 +157,29 @@ appium-doctor
 
 #### VIII. Clone this Repository, and First Run
 
-1.
+1. Open the terminal and run this command
+```bash
+git clone https://github.com/arkadiusreymond/AndroidAutomation
+```
 
+2. Open IntelliJ IDEA, click import project
+<img width="440" alt="screen shot 2018-10-22 at 03 04 48" src="https://user-images.githubusercontent.com/11746963/47271854-47767380-d5a7-11e8-8d59-208c458e2f2c.png"> 
+And import the project
+
+3. Make sure you don't make the wrong choice, select "Import project from external model" and select "Gradle" as shown below
+<img width="434" alt="screen shot 2018-10-22 at 03 06 08" src="https://user-images.githubusercontent.com/11746963/47271870-7987d580-d5a7-11e8-9f21-4e9966f608c1.png"> 
+And then click next
+
+4. Then make sure to check the auto import, as shown below
+<img width="505" alt="screen shot 2018-10-22 at 03 10 52" src="https://user-images.githubusercontent.com/11746963/47271917-1e0a1780-d5a8-11e8-841c-725c89984a04.png">
+Click finish
+
+5. Wait a few moments until all the libraries are successfully loaded, the sync process will take a while, if you have finished you can immediately try to run the test, by opening the emulator that we have previously installed.
+If the emulator has been opened you just right-click on the SimpleTest class and select run test
+<img width="458" alt="screen shot 2018-10-22 at 03 15 51" src="https://user-images.githubusercontent.com/11746963/47271946-d637c000-d5a8-11e8-9d22-80ce5dd71256.png">
+
+6. If successful the emulator will install the calculator application contained in this repository, and will do some simple actions
+
+<img width="303" alt="screen shot 2018-10-22 at 03 17 41" src="https://user-images.githubusercontent.com/11746963/47271964-17c86b00-d5a9-11e8-8980-a3143c30b941.png">
 
  

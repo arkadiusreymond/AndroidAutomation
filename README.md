@@ -61,6 +61,42 @@ source ~/.bash_profile
 adb
 ```
 
+#### IV. Install NPM and Appium
+
+1. Before you install appium, first you must install npm, if using mac you can download from [here](https://nodejs.org/dist/v8.12.0/node-v8.12.0.pkg)
+if your machine is not a mac, you can choose according to your platform [here](https://nodejs.org/en/download/)
+
+2. Open the installation file, and follow it according to the order until the installation process is complete
+
+3. Check the installation process by running the npm command on your terminal, or check the node version
+
+```bash
+npm
+```
+or
+```bash
+node -v
+```
+4. Install appium by running this command on your terminal
+
+```bash
+sudo npm install -g appium@1.9.1 --unsafe-perm=true --allow-root
+```
+
+5. Check the installation process by check the appium version on your terminal
+```bash
+appium -v
+```
+
+6. Install appium doctor by running this command on your terminal
+```bash
+Sudo npm install -g appium-doctor --unsafe-perm=true --allow-root
+```
+
+7. Check the installation process by running the appium doctor command on your terminal
+```bash
+appium-doctor
+``` 
 
 
 

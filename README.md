@@ -28,8 +28,38 @@ if you get an error in the sdk installation process, maybe step 3, 4 or 5 will h
 
 <img width="535" alt="screen shot 2018-10-21 at 12 29 30" src="https://user-images.githubusercontent.com/11746963/47263505-00e43300-d52d-11e8-88f3-7405a1c80369.png"> 
 
+2. Check the installation process was successful, by entering the following command on your terminal
+```bash
+java -version
+```
+
 #### III. Set up Environtment Variables for Java and Android Home
 
+1. If your machine uses mac, and still uses the default terminal, you can simply add the environment variable to the .bash_profile file. Open ypur terminal and type 
+```bash
+nano ~/.bash_profile
+```
+
+2. Add this command to the .bash_profile file
+```bash
+export JAVA_HOME=$(/usr/libexec/java_home)
+export ANDROID_HOME=/Users/<yourmachinename>/Library/Android/sdk/
+export PATH=$PATH:$ANDROID_HOME
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH="/usr/local/bin:$PATH"
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
+3. Save and exit from nano, and load the updated bash_profile, with the command
+```bash
+source ~/.bash_profile
+```
+
+4. check by running the adb command in the terminal
+```bash
+adb
+```
 
 
 

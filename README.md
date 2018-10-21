@@ -61,6 +61,49 @@ source ~/.bash_profile
 adb
 ```
 
+#### IV Prepare an Android Emulator
+
+1. If you have previously made an Android project, open any project and enter into the editor, if not, it's simple, just create an empty project and follow the instructions until it enters the editor, as shown below
+
+<img width="754" alt="screen shot 2018-10-21 at 22 53 57" src="https://user-images.githubusercontent.com/11746963/47269160-4aac3800-d584-11e8-9e88-5252a31dcd1b.png">
+
+2. Click tools, and click AVD Manager. 
+Don't worry if you don't find the Avd Manager menu under the Tools menu, if you first create an Android Studio project, there will be gradle sync proces which usually can be seen in the lower right corner, if the process is complete the Avd Manager menu will appear under the Tools menu
+
+3. Click "Create Virtual Device"
+
+<img width="582" alt="screen shot 2018-10-21 at 23 03 41" src="https://user-images.githubusercontent.com/11746963/47269264-9dd2ba80-d585-11e8-9fc5-704263e41ff0.png">
+
+4. Select Nexus 4, in this tutorial we use this emulator as the default emulator, after which we can use any emulator
+
+<img width="642" alt="screen shot 2018-10-21 at 23 05 49" src="https://user-images.githubusercontent.com/11746963/47269290-e68a7380-d585-11e8-8a81-b0a87c6a728e.png">
+
+5. Download Lollipop
+
+<img width="492" alt="screen shot 2018-10-21 at 23 09 41" src="https://user-images.githubusercontent.com/11746963/47269339-7fb98a00-d586-11e8-8a68-18575e91a3c1.png">
+
+6. If you have finished downloading, select Lollipop and click Next
+
+<img width="555" alt="screen shot 2018-10-21 at 23 11 56" src="https://user-images.githubusercontent.com/11746963/47269365-e8a10200-d586-11e8-9785-bc5d8f170a39.png">
+
+7. Then click finish
+
+<img width="549" alt="screen shot 2018-10-21 at 23 15 03" src="https://user-images.githubusercontent.com/11746963/47269398-41709a80-d587-11e8-9883-0d5f74426283.png">
+
+8. You can run your emulator directly from the Android studio, or by calling it via the terminal by following these steps
+Enter 
+```bash
+cd $ ANDROID_HOME/tools
+```
+to check which emulator has been created, run this command
+```bash
+./emulator -list-avds
+```
+to run the emulator, run this command
+```bash
+./emulator @<your_emulator_name>
+```
+
 #### IV. Install NPM and Appium
 
 1. Before you install appium, first you must install npm, if using mac you can download from [here](https://nodejs.org/dist/v8.12.0/node-v8.12.0.pkg)

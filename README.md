@@ -104,7 +104,7 @@ to run the emulator, run this command
 ./emulator @<your_emulator_name>
 ```
 
-#### IV. Install NPM and Appium
+#### V. Install NPM and Appium
 
 1. Before you install appium, first you must install npm, if using mac you can download from [here](https://nodejs.org/dist/v8.12.0/node-v8.12.0.pkg)
 if your machine is not a mac, you can choose according to your platform [here](https://nodejs.org/en/download/)
@@ -141,6 +141,13 @@ Sudo npm install -g appium-doctor --unsafe-perm=true --allow-root
 appium-doctor
 ``` 
 
+#### VI. Instal IntelliJ IDEA
+
+1. If you use mac download the community version [here](https://www.jetbrains.com/idea/download/download-thanks.html?platform=mac&code=IIC) , or if it's not a mac, you can download it according to the platform [here](https://www.jetbrains.com/idea/download/)
+
+#### VII. Clone this Repository, and First Run
+
+1.
 
 
  

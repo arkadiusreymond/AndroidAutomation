@@ -1,8 +1,8 @@
 # AndroidAutomation
 
-#### Step by step
+### Step by step
 
-I. Android Studio download and Instalation
+#### I. Android Studio download and Instalation
 
 1. Download dan install Android Studio, you can download from [here](https://developer.android.com/studio/) 
 
@@ -23,10 +23,14 @@ if you get an error in the sdk installation process, maybe step 3, 4 or 5 will h
 
 <img width="699" alt="screen shot 2018-10-21 at 12 26 31" src="https://user-images.githubusercontent.com/11746963/47263477-959a6100-d52c-11e8-9256-89a051753a5f.png">
 
-II. Download and install Java 8 
+#### II. Download and install Java 8 
 1. Download and install Java 8 from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) Download according to the platform you are using
 
 <img width="535" alt="screen shot 2018-10-21 at 12 29 30" src="https://user-images.githubusercontent.com/11746963/47263505-00e43300-d52d-11e8-88f3-7405a1c80369.png"> 
+
+#### III. Set up Environtment Variables for Java and Android Home
+
+
 
 
 

@@ -93,7 +93,7 @@ Don't worry if you don't find the Avd Manager menu under the Tools menu, if you 
 8. You can run your emulator directly from the Android studio, or by calling it via the terminal by following these steps
 Enter 
 ```bash
-cd $ ANDROID_HOME/tools
+cd $ANDROID_HOME/tools
 ```
 to check which emulator has been created, run this command
 ```bash

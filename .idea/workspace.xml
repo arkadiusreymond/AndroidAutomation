@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35d84664-cb63-487b-adf1-d6f075f89e35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_test.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -105,73 +108,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestInstrument.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-699">
-              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Bukalapak.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="55" column="53" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="180">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -179,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="450">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -384,7 +326,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6161465882000" />
+        <entry key="$PROJECT_DIR$" value="6161471486000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="650440780" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -529,7 +471,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="112" />
+    <option name="y" value="75" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -539,57 +482,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationUIAndroid" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationUIAndroid" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationUIAndroid" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationUIAndroid" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PageObject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testsuite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540382239322" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540387022162" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -616,7 +543,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/arkadiusreymond/AndroidAutomation/src/test/java/testsuite/testgrup.xml">
+  <component name="RunManager" selected="TestNG.SimpleTest">
     <configuration name="SimpleTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationUIAndroid_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -643,8 +570,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/arkadiusreymond/AndroidAutomation/src/test/java/testsuite/testgrup.xml" />
         <item itemvalue="TestNG.SimpleTest" />
+        <item itemvalue="TestNG./Users/arkadiusreymond/AndroidAutomation/src/test/java/testsuite/testgrup.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -694,9 +621,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37768242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2891374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -733,7 +661,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/TestInstrument.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Abc.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/util/TestInstrument.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestInstrument.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/6.1.0/4e110c37cb22ea7fcc0916ca0a2288a5308e9fd3/java-client-6.1.0-sources.jar!/io/appium/java_client/android/AndroidDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -743,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        <state relative-caret-position="450">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -760,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="180">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -769,10 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,32 +703,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="55" column="53" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testsuite/testgroup.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/BasePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/testsuite/testgroup.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">

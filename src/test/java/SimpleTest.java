@@ -10,6 +10,5 @@ public class SimpleTest extends TestInstrument {
     @Test()
     public void simpleTest() {
         bukalapak.homePage().tapOnOkeButtonOnboarding();
-        bukalapak.homePage().delay(10000);
     }
 }

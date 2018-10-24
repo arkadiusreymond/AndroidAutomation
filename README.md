@@ -111,8 +111,47 @@ to run the emulator, run this command
 ```bash
 $ANDROID_HOME/tools/bin/uiautomatorviewer
 ```
-
 <img width="800" alt="screen shot 2018-10-22 at 02 54 48" src="https://user-images.githubusercontent.com/11746963/47271699-e8fcc580-d5a5-11e8-99c9-391869497deb.png">
+
+2.  if you get problem as shown bellow
+<img width="1177" alt="screen shot 2018-10-23 at 12 06 04" src="https://user-images.githubusercontent.com/11746963/47407116-cde7ac80-d783-11e8-8f64-a8fef49c01cd.png">
+
+this problem is caused by the java version that is read on your machine above java 1.8, so you must check java version by running this command
+```bash
+cd /Library/Java/JavaVirtualMachines 
+```
+and then type
+```bash
+ls
+```
+
+3. If you get more than 1 java installed, as shown below
+
+<img width="940" alt="screen shot 2018-10-24 at 12 05 10" src="https://user-images.githubusercontent.com/11746963/47407392-1d7aa800-d785-11e8-8132-08c86aac9a30.png">
+
+4. You have to delete the other Java version, besides jdk 1.8.0_191, run this command
+```bash
+rm -r jdk-10.0.2.jdk
+```
+
+```bash
+rm -r jdk-1.8.0_181.jdk
+```
+assuming there is another java version (jdk-10.0.2.jdk and rm -r jdk-1.8.0_181.jdk)
+
+5.run this command
+
+```bash
+export JAVA_HOME=/Library/Java/Home
+```
+
+```bash
+source ~/.bash_profile
+```
+
+6. restart your terminal and run emulator again (Step 1)
+
+
 
 #### VI. Install NPM and Appium
 

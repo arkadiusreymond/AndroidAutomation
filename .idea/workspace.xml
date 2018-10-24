@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35d84664-cb63-487b-adf1-d6f075f89e35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_cdimascio_java_dotenv_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Bukalapak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestInstrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/SimpleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/SimpleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -92,26 +76,30 @@
         <counts>
           <entry key="dummy" value="13" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="399" />
+          <entry key="java" value="407" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="399" />
+          <entry key="JAVA" value="407" />
           <entry key="PLAIN_TEXT" value="13" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
           <entry key="java" value="4" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
           <entry key="JAVA" value="4" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -167,14 +155,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            <state relative-caret-position="348">
+              <caret line="55" column="53" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -520,6 +517,8 @@
         <option value="$PROJECT_DIR$/src/test/java/SimpleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestInstrument.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObject/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testsuite/testgroup.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testsuite/CHAT.xml" />
       </list>
     </option>
   </component>
@@ -575,6 +574,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PageObject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testsuite" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -582,7 +589,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540381790684" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540382239322" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -593,6 +600,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/testsuite" />
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
@@ -608,7 +616,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG./Users/arkadiusreymond/AndroidAutomation/src/test/java/testsuite/testgrup.xml">
     <configuration name="SimpleTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationUIAndroid_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -619,8 +627,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/arkadiusreymond/AndroidAutomation/src/test/java/testsuite/testgrup.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationUIAndroid_test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.SimpleTest" />
+      <item itemvalue="TestNG./Users/arkadiusreymond/AndroidAutomation/src/test/java/testsuite/testgrup.xml" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/arkadiusreymond/AndroidAutomation/src/test/java/testsuite/testgrup.xml" />
         <item itemvalue="TestNG.SimpleTest" />
       </list>
     </recent_temporary>
@@ -672,7 +695,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37768242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -769,11 +791,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        <state relative-caret-position="348">
+          <caret line="55" column="53" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testsuite/testgroup.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>

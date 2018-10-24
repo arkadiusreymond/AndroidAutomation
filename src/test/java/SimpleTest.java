@@ -38,7 +38,7 @@ public class SimpleTest  {
         }
 
         // Set Desired Capabilities
-        File appDir = new File("/Users/" + System.getProperty("user.name") + "/AutomationUIAndroid/");
+        File appDir = new File("/Users/" + System.getProperty("user.name") + "/AndroidAutomation/");
         File app = new File(appDir, Objects.requireNonNull("calculator1.apk"));
 
         DesiredCapabilities capabilities = new DesiredCapabilities();

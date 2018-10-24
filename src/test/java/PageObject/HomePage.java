@@ -12,4 +12,8 @@ public class HomePage extends BasePage {
     public void tapOnOkeButtonOnboarding() {
         tapViewWithIdAndTimeOut("button_showcase", 30);
     }
+
+    public void tapOnBottomBar() {
+        tapViewWithId("bottombartab_profile");
+    }
 }

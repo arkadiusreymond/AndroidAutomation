@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35d84664-cb63-487b-adf1-d6f075f89e35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SimpleTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/SimpleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/SimpleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Bukalapak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Bukalapak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -79,30 +83,30 @@
         <counts>
           <entry key="dummy" value="13" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="407" />
-          <entry key="xml" value="12" />
+          <entry key="java" value="751" />
+          <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="407" />
+          <entry key="JAVA" value="751" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="XML" value="12" />
+          <entry key="XML" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="4" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="9" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="4" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="9" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -112,8 +116,94 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            <state relative-caret-position="225">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Bukalapak.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -454,13 +544,16 @@
         <option value="$PROJECT_DIR$/src/test/java/Setting.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestIntrument.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcase/SimpleTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObject/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Bukalapak.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SimpleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestInstrument.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObject/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testsuite/testgroup.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testsuite/CHAT.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObject/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SimpleTest2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObject/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Bukalapak.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SimpleTest.java" />
       </list>
     </option>
   </component>
@@ -471,10 +564,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
-    <option name="y" value="75" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
+    <option name="x" value="-20" />
+    <option name="y" value="94" />
+    <option name="width" value="1661" />
+    <option name="height" value="912" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -507,6 +600,22 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AutomationUIAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationUIAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testsuite" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -516,15 +625,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540387022162" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540388314979" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="PageObject" />
       <recent name="pageObject" />
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/testsuite" />
@@ -589,12 +698,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleTest - 2018.10.22 at 01h 38m 42s.xml">
-      <configuration name="SimpleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SimpleTest - 2018.10.22 at 02h 34m 49s.xml">
-      <configuration name="SimpleTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SimpleTest - 2018.10.22 at 02h 35m 29s.xml">
       <configuration name="SimpleTest" configurationId="TestNG" />
     </history-entry>
@@ -619,12 +722,17 @@
     <history-entry file="SimpleTest - 2018.10.24 at 18h 50m 00s.xml">
       <configuration name="SimpleTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SimpleTest - 2018.10.24 at 20h 18m 40s.xml">
+      <configuration name="SimpleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_arkadiusreymond_AndroidAutomation_src_test_java_testsuite_testgrup_xml - 2018.10.24 at 20h 28m 01s.xml">
+      <configuration name="/Users/arkadiusreymond/AndroidAutomation/src/test/java/testsuite/testgrup.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="-20" y="94" width="1440" height="797" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2891374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38841203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -642,7 +750,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32907802" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.45804676" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -685,33 +793,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testsuite/testgroup.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        <state relative-caret-position="75">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Bukalapak.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="240">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/BasePage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testsuite/testgroup.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testsuite/testgrup.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Bukalapak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="225">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
         </state>
       </provider>
     </entry>

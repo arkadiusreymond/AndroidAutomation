@@ -1,8 +1,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="CHAT" verbose="1">
+
     <test name="Test grup">
         <classes>
             <class name="SimpleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test grup 2">
+        <classes>
+            <class name="SimpleTest2"/>
         </classes>
     </test>
 </suite>

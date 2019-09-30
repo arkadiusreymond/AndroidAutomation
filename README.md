@@ -172,7 +172,7 @@ node -v
 4. Install appium by running this command on your terminal
 
 ```bash
-sudo npm install -g appium@1.9.1 --unsafe-perm=true --allow-root
+sudo npm install -g appium@1.13.0 --unsafe-perm=true --allow-root
 ```
 
 5. Check the installation process by check the appium version on your terminal

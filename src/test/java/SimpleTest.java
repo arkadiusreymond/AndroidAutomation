@@ -46,18 +46,18 @@ public class SimpleTest  {
         capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 60);
         capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
-        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus_4_API_22");
-        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "5.1");
+        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "android");
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.0");
         capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "");
         capabilities.setCapability(MobileCapabilityType.FULL_RESET, true);
         capabilities.setCapability(MobileCapabilityType.NO_RESET, false);
         capabilities.setCapability(AndroidMobileCapabilityType.AUTO_GRANT_PERMISSIONS, true);
-        capabilities.setCapability(AndroidMobileCapabilityType.SYSTEM_PORT, Integer.parseInt("9920") + 10);
+//        capabilities.setCapability(AndroidMobileCapabilityType.SYSTEM_PORT, Integer.parseInt("9920") + 10);
         capabilities.setCapability(AndroidMobileCapabilityType.ANDROID_INSTALL_TIMEOUT, 240000);
-        if (true) {
-            capabilities.setCapability(AndroidMobileCapabilityType.AVD, "Nexus_4_API_22");
-            capabilities.setCapability(AndroidMobileCapabilityType.AVD_ARGS, "-port " + "9920" + " -no-snapshot-save -netspeed " + true);
-        }
+//        if (true) {
+//            capabilities.setCapability(AndroidMobileCapabilityType.AVD, "Nexus_4_API_22");
+//            capabilities.setCapability(AndroidMobileCapabilityType.AVD_ARGS, "-port " + "9920" + " -no-snapshot-save -netspeed " + true);
+//        }
         capabilities.setCapability("uiautomator2ServerInstallTimeout", 240000);
         capabilities.setCapability("uiautomator2ServerLaunchTimeout", 240000);
         driver = new AndroidDriver<>(service.getUrl(), capabilities);

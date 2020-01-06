@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutomationUIAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutomationUIAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid.iml" group="AutomationUIAndroid" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_main.iml" group="AutomationUIAndroid" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AutomationUIAndroid_test.iml" group="AutomationUIAndroid" />
     </modules>

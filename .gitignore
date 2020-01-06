@@ -1,8 +1,9 @@
-
 .idea/
 .gradle/
 build/
 *.iml
+*.bin
+*.lock
 *.class
 .DS_Store
 out/
